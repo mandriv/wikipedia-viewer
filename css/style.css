@@ -1,0 +1,55 @@
+html{
+  background-color:#cccccc;
+}
+.container{
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  justify-content:flex-start;
+  height:100vh;
+}
+.input-elements{
+  padding-top:5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.author{
+  padding-top:30px;
+  font-family: 'Oswald', sans-serif;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.author h3{
+  font-size:2em;
+  padding:3px;
+}
+.suggestions{
+  margin:4em;
+  color:#cccccc;
+}
+.title{
+  color:#cccccc;
+  font-family: 'Oswald', sans-serif;
+  font-size:1.5em;
+}
+.snippet{
+  margin:1em;
+}
+
+#search-btn{
+  margin-left:10px;
+  font-size:4em;
+}
+#input{
+  display:none;
+  font-size:2em;
+  border-radius:15px;
+  padding:10px;
+  font-family: 'Indie Flower', cursive;
+}
+#input:focus{
+  outline:none;
+  border-color:#000000;
+}
